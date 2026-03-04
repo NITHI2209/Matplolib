@@ -4,3 +4,4 @@ x = [1,5,6]
 y = [9,7,4]
 plt.plot(x,y)
 plt.show()
+#Refer Figure 1
