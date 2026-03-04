@@ -4,6 +4,7 @@ data = {
     "salary" : [50000,70000,55000,60000,45000,80000]
 }
 df = pd.DataFrame(data)
-plt.plot(df["salary"])
+plt.plot(df["salary"],color = "red",marker ="o", linestyle= ":", linewidth="3")
+plt.grid()
 plt.show()
 #Refer figure 2
