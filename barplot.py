@@ -7,6 +7,6 @@ data = {
 }
 df = pd.DataFrame(data)
 sort_age= df.sort_values("Age")
-plt.bar(sort_age["Age"],df["salary"],width = 2, color = "yellow")
+plt.bar(sort_age["Age"],df["salary"],width = 2, color = "yellow",align="center")
 plt.show()
 #refer figure 9
