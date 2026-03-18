@@ -7,7 +7,7 @@ data = {
 }
 df = pd.DataFrame(data)
 salary_by_dept = df.groupby("Dept")["salary"].sum()
-plt.pie(salary_by_dept,labels=salary_by_dept.index,colors=["grey","pink","yellow"],autopct="%1.2f")
+plt.pie(salary_by_dept,labels=salary_by_dept.index,colors=["grey","pink","yellow"],autopct="%1.2f",shadow = True,explode=[0.1,0.2,0.1])
 plt.axis("equal")
 plt.show()
 #Refer figure 11
