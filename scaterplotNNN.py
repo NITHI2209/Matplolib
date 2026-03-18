@@ -7,7 +7,9 @@ data = {
 }
 df = pd.DataFrame(data)
 df["exprience"] = [1,1.5,1.7,1.8,2,2.5,3,3.5,4,5]
-plt.scatter(df["Age"],df["salary"],s = df["exprience"] * 30, color="orange")
-plt.grid()
+plt.scatter(df["Age"],df["salary"],s = df["exprience"] * 50, color="skyblue",edgecolors="black")
+plt.title("Age vs salary vs Exprience")
+plt.xlabel ("Age")
+plt.ylabel("Salary")
 plt.show()
 #Refer figure 13
